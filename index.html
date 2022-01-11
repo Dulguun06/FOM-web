@@ -15,13 +15,14 @@
   <body>
     <!-- Navigation bar -->
 
-    <header class="mainheader">
+    <header id="mainheader">
       <nav>
         <img
           src="FOM-logo-prime.jpg"
-          class="menu-item logo"
+          class="menu-item"
+          id="logo"
           alt="Friends of Mongolia Logo"
-          style="max-height: 85px; width: auto"
+          style="width: auto"
         />
         <ul class="menu-item">
           <li><a href="about-us.html">About us</a></li>
@@ -146,5 +147,20 @@
         </li>
       </ul>
     </footer>
+    <script>
+      window.onscroll=function(){
+        scrollFunction()
+      };
+      function scrollFunction(){
+        if (document.body.scrollTop > 80 || document.documentElement.scrollTop > 80) {
+    document.getElementById("mainheader").style.padding = "10px 10px";
+    document.getElementById("logo").style.height = "60px";
+  } else {
+    document.getElementById("mainheader").style.padding = "50px 10px";
+    document.getElementById("logo").style.height = "100px";
+    
+  }
+      }
+    </script>
   </body>
 </html>

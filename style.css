@@ -27,7 +27,7 @@ nav {
 }
 
 /* Navbar */
-.mainheader {
+#mainheader {
   background-color: #035e7b;
   width: 100vw;
   height: auto;
@@ -35,9 +35,11 @@ nav {
   position: sticky;
   position: -webkit-sticky;
   top: 0px;
+  transition: 0.4s;
 }
-.logo {
+#logo {
   height: 85px;
+  transition: 1s;
 }
 .menu-item {
   display: inline-flex;
@@ -85,27 +87,31 @@ nav {
   height: 20px;
 }
 /* Newsletter */
-.container{
-	width: 80vw;
+.container {
+  width: 80vw;
 }
-.news-letter-sign-up{
-	display: flex;
-	justify-content: center;
-	width: 80vw;
-	height: 40vh;
-	background-size: cover;
-	background-repeat: no-repeat;
-	background-position: center;
-	background-image: url(b1.jpg);
+.news-letter-sign-up {
+  display: flex;
+  justify-content: center;
+  width: 80vw;
+  height: 40vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url(b1.jpg);
 }
-.news-letter-h1{
-	font-family: Montserrat;
-	display: flex;
-	color: #f1faee;
-	padding-top: 50px;
-	padding-left: 400px;
+.news-letter-h1 {
+  font-family: Montserrat;
+  display: flex;
+  color: #f1faee;
+  padding-top: 50px;
+  padding-left: 400px;
 }
-.news-letter-p{
-	font-family: Verdana, Geneva, Tahoma, sans-serif;
-	color: #f1faee;
+.news-letter-p {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: #f1faee;
+}
+.projects > article > img {
+  border-radius: 30%;
+  width: 200px;
 }
