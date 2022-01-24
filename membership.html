@@ -13,36 +13,30 @@
     <title>Membership</title>
   </head>
   <body>
-    <header id="mainheader">
-      <nav>
+    <header class="nav">
+      <input type="checkbox" id="nav-check">
+      <div class="nav-header">
         <a href="index.html">
-        <img
-          src="FOM-logo-prime.jpg"
-          class="menu-item"
-          id="logo"
-          alt="Friends of Mongolia Logo"
-          style="max-height: 85px; width: auto"
-        />
+          <div class="nav-title">
+            <img id="logo" src="FOM-Logo-prime.jpg" alt="Friends of Mongolia Logo">
+            <p>Friends of Mongolia</p>
+          </div>
         </a>
-        <ul class="menu-item">
-          <li><a href="about-us.html">About us</a></li>
-          <li>
-            <a href="projects.html"><em>Projects</em></a>
-          </li>
-          <li><a href="membership.html">Membership</a></li>
-          <li><a href="news.html">News</a></li>
-        </ul>
-        <div class="searchbar menu-item">
-          <input class="input-area" type="text" placeholder="Search" />
-          <button class="search-button" type="submit">
-            <img
-              src="search-icon.png"
-              class="search-button-img"
-              alt="search icon"
-            />
-          </button>
-        </div>
-      </nav>
+      </div>
+      <div class="nav-btn">
+        <label for="nav-check">
+          <span></span>
+          <span></span>
+          <span></span>
+        </label>
+      </div>
+      
+      <div class="nav-links">
+        <a href="about-us.html" >About us</a>
+        <a href="projects.html" >Project</a>
+        <a href="membership.html" >Membership</a>
+        <a href="news.html" >News</a>
+      </div>
     </header>
 
     <!-- Body of the site -->
