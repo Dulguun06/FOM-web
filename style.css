@@ -94,6 +94,16 @@ body {
   align-items: center;
   position: relative;
   color: white;
+  padding-right: 100px;
+}
+.box p{
+  padding-bottom: 50px;
+  margin: 0;
+  font-size: x-large;
+}
+.box h1{
+  padding-bottom: 0;
+  margin: 0;
 }
 .mail-area{
   background-color: #ffffff;
@@ -107,7 +117,6 @@ body {
   font-size: 14pt;
   padding: 15px;
   width: 150px;
-  transition: all 0.5s;
   cursor: pointer;
   margin: 5px;
   border-radius: 100px 100px 100px 100px;
@@ -116,7 +125,7 @@ body {
   cursor: pointer;
   display: inline-block;
   position: relative;
-  transition: 0.5s;
+  transition: .5s;
 }
 .mail-area>button>span:after{
   content: "\00bb";
@@ -222,7 +231,13 @@ body {
   .mail-area>button:hover>span{
     padding-right: 10px;
   }
+  .box{
+    padding:0;
+  }
   .box>h1{
     font-size: 15pt;
+  }
+  .box p{
+    font-size:medium;
   }
 }
