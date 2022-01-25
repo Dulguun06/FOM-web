@@ -90,11 +90,9 @@ body {
 }
 .box {
   display: flex;
-  /* background-color: violet; */
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  position: relative;
   color: white;
   padding-right: 100px;
 }
@@ -154,6 +152,52 @@ body {
 }
 .mail-area input:focus {
   outline: none;
+}
+.about {
+  position: relative;
+  background-image: url(b2.jpg);
+  background-size: cover;
+  height: 405px;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+}
+.b2 {
+  background-image: url(ger-left.png);
+  opacity: 75%;
+  background-size: cover;
+  height: 405px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  background-position: 50% 50%;
+}
+.box2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  padding-left: 100px;
+}
+.box2 p {
+  padding-bottom: 50px;
+  margin: 0;
+  font-size: x-large;
+}
+.box2 h1 {
+  padding-bottom: 0;
+  margin: 0;
+}
+#ab-btn {
+  border-radius: 100px;
+  text-align: center;
+  font-size: 14pt;
+  padding: 15px;
+  width: 150px;
+  cursor: pointer;
+  margin: 5px;
+  background-color: #caf0f8;
 }
 @media screen and (max-width: 500px) {
   /* navigation */
@@ -215,7 +259,7 @@ body {
   }
   /* newsletter */
   .ger {
-    background-position: 100% 50%;
+    background-position: 100%;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -241,6 +285,21 @@ body {
     font-size: 15pt;
   }
   .box p {
+    font-size: medium;
+  }
+  .b2 {
+    background-position: 0;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .box2 {
+    padding: 0;
+  }
+  .box2 > h1 {
+    font-size: 15pt;
+  }
+  .box2 p {
     font-size: medium;
   }
 }
