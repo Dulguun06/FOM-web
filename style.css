@@ -293,7 +293,7 @@ footer {
   color: #212121;
   margin-top: 2vh;
 }
-footer > ul {
+footer>.container > ul {
   margin: 0;
   list-style-type: none;
 }
