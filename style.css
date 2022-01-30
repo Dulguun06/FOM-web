@@ -482,6 +482,7 @@ footer>.container > ul {
   .projects h1{
     font-weight: 600 !important;
     font-size: 20pt !important;
+    margin: 5vh 0;
   }
   .right {
     position: relative;
@@ -489,7 +490,7 @@ footer>.container > ul {
   .project-item {
     max-width: 90vw;
     height: 35vw;
-    margin: 20px 0;
+    margin: 5vh 0;
     padding: 0 2vw 0 2vw !important;
     display: flex;
     flex-direction:row;
@@ -505,13 +506,14 @@ footer>.container > ul {
   .text-wrapper {
     text-align: center;
     max-width: 300px;
-    max-height: 180px;
+    max-height: 100%;
     margin: 0;
   }
   .text-wrapper h2 {
     font-weight: 400;
     font-size: 15pt;
     min-width: 50vw;
+    margin: 0;
   }
   .text-wrapper p {
   display: none;
