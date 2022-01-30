@@ -509,8 +509,8 @@ footer>.container > ul {
     margin: 0;
   }
   .text-wrapper h2 {
-    font-weight: 600;
-    font-size: 12pt;
+    font-weight: 400;
+    font-size: 15pt;
     min-width: 50vw;
   }
   .text-wrapper p {
