@@ -4,7 +4,6 @@
 * {
   box-sizing: border-box;
 }
-<<<<<<< HEAD
 h1.h2.h3 {
   font-weight: bold;
   letter-spacing: 0.05em;
@@ -23,13 +22,12 @@ p {
   line-height: 1.5;
   text-rendering: optimizeLegibility !important;
   letter-spacing: 0.04em;
-=======
+}
 a {
   text-decoration-color: #023e8a;
   color: black;
   text-decoration-thickness: 3px;
   text-underline-offset: 2px;
->>>>>>> 4a84711181c5dffbc2423c41bf3a474b4b102f06
 }
 body {
   margin: 0px;
@@ -258,16 +256,10 @@ body {
 }
 .text-wrapper p {
   font-weight: 300;
-<<<<<<< HEAD
   font-size: 1em;
   margin: 0;
   padding: 0;
   line-height: 1;
-=======
-  font-size: 12pt;
-  margin: 0;
-  padding: 0;
->>>>>>> 4a84711181c5dffbc2423c41bf3a474b4b102f06
 }
 
 /* mini-about */
@@ -438,11 +430,7 @@ footer > .container > ul {
 
 /* Media query  */
 
-<<<<<<< HEAD
-@media screen and (max-width: 920px) {
-=======
 @media screen and (max-width: 500px) {
->>>>>>> 4a84711181c5dffbc2423c41bf3a474b4b102f06
   /* container */
   .container {
     min-width: 300px;
@@ -640,10 +628,10 @@ footer > .container > ul {
     width: 30vw;
     height: 30vw;
   }
-<<<<<<< HEAD
+
   footer {
     font-size: 0.7em;
-=======
+  }
   .text-wrapper {
     text-align: center;
     max-width: 300px;
@@ -659,6 +647,5 @@ footer > .container > ul {
   .text-wrapper h3 {
     font-weight: 300;
     font-size: 10pt;
->>>>>>> 4a84711181c5dffbc2423c41bf3a474b4b102f06
   }
 }
