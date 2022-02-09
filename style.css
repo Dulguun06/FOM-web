@@ -124,23 +124,25 @@ body {
 }
 .box {
   display: flex;
+  max-width: 50%;
+  text-align: center;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   color: #eee;
-  padding-right: 100px;
+  padding: 5vw;
 }
 .box > p {
-  padding-bottom: 50px;
+  padding-bottom: 5vh;
   margin: 0;
   font-size: 1.7em;
 }
 .box > h1 {
-  padding-bottom: 0;
+  padding: 0;
   margin: 0;
 }
 .mail-area {
-  background-color: #ffffff;
+  background-color: #eee;
   border-radius: 100px;
 }
 .mail-area > button {
@@ -148,11 +150,11 @@ body {
   border: none;
   color: #ffffff;
   text-align: center;
-  font-size: 14pt;
-  padding: 15px;
-  width: 150px;
+  font-size: 1.2em;
+  padding: 1vw;
+  width: 10vw;
   cursor: pointer;
-  margin: 5px;
+  margin: 0.5vw;
   border-radius: 100px;
 }
 .mail-area > button > span {
@@ -287,17 +289,20 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  text-align: center;
   align-items: center;
-  color: white;
+  color: #eee;
+  padding: 5vw;
 }
 .box2 > p {
-  padding-bottom: 25px;
+  padding-bottom: 2.5vh;
   margin: 0;
   font-size: 1.7em;
   max-width: 50%;
   text-align: center;
 }
 .box2 > h1 {
+  width: 500px;
   padding-bottom: 0;
   margin: 0;
 }
@@ -400,7 +405,7 @@ footer > .container > ul {
 /* ABOUT US HEADER */
 .about-us-header {
   position: relative;
-  background-image: url(about-img.webp);
+  background-image: url(ab-1.jpg);
   background-size: cover;
   height: 405px;
   background-repeat: no-repeat;
@@ -499,6 +504,9 @@ footer > .container > ul {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+  }
+  .mail-area {
+    width: 270px;
   }
   .mail-area > input {
     width: 150px;
