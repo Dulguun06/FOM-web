@@ -22,6 +22,7 @@ p {
   line-height: 1.5;
   text-rendering: optimizeLegibility !important;
   letter-spacing: 0.04em;
+  overflow-wrap: break-word;
 }
 a {
   text-decoration-color: #023e8a;
@@ -198,12 +199,25 @@ body {
   margin-left: auto;
   margin-right: auto;
 }
-
+.container img {
+  max-width: 980px;
+  width: 90vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 2vh;
+}
 /* project */
 .projects,
 .membership {
   display: block;
   flex-direction: column;
+}
+.membership-header-title {
+  background-image: url(membership-header.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position-x: center;
 }
 .project-item {
   width: 600px;
@@ -262,6 +276,22 @@ body {
   margin: 0;
   padding: 0;
   line-height: 1;
+}
+
+/* cdg */
+.cdg-header-title {
+  background-image: url(Project2.webp);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* community outreach header title  */
+.community-outreach-header-title {
+  background-image: url(Project3.webp);
+  background-position-y: -300px;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 /* mini-about */
@@ -546,6 +576,7 @@ footer > .container > ul {
   .box2 > h1 {
     font-size: 1.5em;
     text-align: center;
+    width: 90vw;
   }
   .box2 > p {
     font-size: 1em;
@@ -655,5 +686,8 @@ footer > .container > ul {
   .text-wrapper h3 {
     font-weight: 300;
     font-size: 10pt;
+  }
+  .community-outreach-header-title {
+    background-position-y: center;
   }
 }
