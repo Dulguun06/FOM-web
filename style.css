@@ -369,7 +369,13 @@ body {
   opacity: 1;
   right: 0;
 }
-
+.officers img {
+  width: 20vw;
+  left: 0px;
+}
+.officers p {
+  overflow-wrap: break-word;
+}
 /* FOOTER*/
 
 footer {
@@ -667,7 +673,10 @@ footer > .container > ul {
     width: 30vw;
     height: 30vw;
   }
-
+  .officers img {
+    width: 90vw;
+    left: 0px;
+  }
   footer {
     font-size: 0.7em;
   }
