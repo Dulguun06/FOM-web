@@ -199,13 +199,13 @@ body {
   margin-left: auto;
   margin-right: auto;
 }
-.container img {
+.content img {
   max-width: 980px;
   width: 90vw;
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-bottom: 2vh;
+  margin-bottom: 5vh;
 }
 /* project */
 .projects,
@@ -616,7 +616,7 @@ footer > .container > ul {
   .project-item {
     max-width: 90vw;
     height: 35vw;
-    margin: 5vh 0;
+    margin: 2vw 0;
     padding: 0 2vw 0 2vw !important;
     display: flex;
     flex-direction: row;
@@ -628,6 +628,7 @@ footer > .container > ul {
     width: 30vw;
     height: 30vw;
     border-radius: 100%;
+    margin: 0 !important;
   }
   .text-wrapper {
     text-align: center;
